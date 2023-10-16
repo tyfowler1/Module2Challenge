@@ -1,0 +1,91 @@
+/* Set a background color and text color */
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Style the header section */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Create a container for the main content */
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the project section */
+#projects {
+  flex: 1;
+  max-width: 700px;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.project img {
+  max-width: 30%;
+}
+
+/* Style the about section */
+#about {
+  flex: 1;
+  max-width: 400px;
+}
+
+/* Style the contact section */
+#contact {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+}
