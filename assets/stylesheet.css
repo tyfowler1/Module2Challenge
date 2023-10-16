@@ -1,4 +1,4 @@
-/* Set a background color and text color */
+/* Text and Background Color */
 body {
   background-color: #f0f0f0;
   color: #333;
@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
 }
 
-/* Style the header section */
+/* Header Section */
 header {
   text-align: center;
   padding: 20px;
@@ -14,7 +14,7 @@ header {
   color: #fff;
 }
 
-/* Style the navigation menu */
+/* Nav Bar */
 nav {
   background-color: #333;
   text-align: center;
@@ -35,7 +35,7 @@ nav a {
   color: #fff;
 }
 
-/* Create a container for the main content */
+/* Main Content */
 .container {
   display: flex;
   justify-content: space-between;
@@ -44,7 +44,7 @@ nav a {
   padding: 20px;
 }
 
-/* Style the project section */
+/* Project Section */
 #projects {
   flex: 1;
   max-width: 700px;
@@ -61,13 +61,13 @@ nav a {
   max-width: 30%;
 }
 
-/* Style the about section */
+/* About Section */
 #about {
   flex: 1;
   max-width: 400px;
 }
 
-/* Style the contact section */
+/* Contact Section */
 #contact {
   text-align: center;
   padding: 20px;
@@ -75,7 +75,7 @@ nav a {
   color: #fff;
 }
 
-/* Style the footer */
+/* Footer */
 footer {
   text-align: center;
   padding: 10px;
@@ -85,6 +85,11 @@ footer {
 
 /* Media query for responsiveness */
 @media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+}
+@media (max-width: 992px) {
   .container {
       flex-direction: column;
   }
